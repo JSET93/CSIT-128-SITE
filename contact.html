@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Recommendation | Contact Us</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Navigation Bar ===== -->
+  <nav class="navbar">
+    <div class="logo">TravelRec</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html" class="active">Contact Us</a></li>
+    </ul>
+    <div class="search-group">
+      <input type="text" id="searchInput" placeholder="Search destinations..." />
+      <button id="searchBtn">Search</button>
+      <button id="clearBtn">Clear</button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <h1>Contact Us</h1>
+    <p>Have a question or suggestion? We would love to hear from you.</p>
+  </header>
+
+  <section class="section">
+    <div class="contact-wrapper">
+
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p>Email: <a href="mailto:info@travelrecommendation.com">info@travelrecommendation.com</a></p>
+        <p>Phone: +971 4 123 4567</p>
+        <p>Address: Knowledge Park, Dubai, United Arab Emirates</p>
+        <p>Hours: Sunday – Thursday, 9:00 AM – 5:00 PM</p>
+      </div>
+
+      <div class="contact-form">
+        <!-- mailto: form so a message opens directly in the user's email client -->
+        <form action="mailto:info@travelrecommendation.com" method="post" enctype="text/plain">
+          <div>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 Travel Recommendation. All rights reserved.
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
